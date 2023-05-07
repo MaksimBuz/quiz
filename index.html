@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="card">
+        <div class="card_text">
+            <h2 class="card_title">  Подберём вуз мечты  </h2>
+            <p class="description">Ответьте на 8 простых вопросов, и мы составим список наболее подходящих для вас вузов</p>
+            <img src="./main_img.png" alt="">
+        </div>
+        <div class="card__form">
+            <form action="" class="form_step" name="form">
+                <p class="form__title">Для кого вы ищете учебное заведение?</p>   
+                <p class="form_step_description">Шаг 1/9</p>
+                <div class="input__switch">
+                    <p class="checkbox_short"> Cебе <input type="radio"value="Cебе" ></p>
+                    <p class="checkbox_short" > Супругу/супруге <input type="radio" value="Супругу/супруге" checked></p>
+                    <p class="checkbox_short"> Родственнику <input type="radio"  value="Родственнику"></p>
+                    <p class="checkbox_short"> Ребенку <input type="radio"  value="Ребенку"></p>
+                    <p class="checkbox_short"> Коллеге<input type="radio"  value="Коллеге"></p>
+                    <p class="checkbox_short" > Другое <input type="radio" value=" Другое"></p> 
+                </div>
+                <div class="form_btns">
+                    <button onclick="window.history.back()" class="btn_back">Вернутся к началу</button>
+                    <button type="button" id="step_1_btn" class="btn">Далее</button>
+                </div>
+            </form>
+        </div> 
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
